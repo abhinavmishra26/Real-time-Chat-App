@@ -16,7 +16,7 @@ export const MessageInput=()=>{
             <form onSubmit={(e)=>handleSubmit(e)}>
                 <div className="relative ">
             <input type="text" placeholder="Send a message" value={message} onChange={(e)=>setMessage(e.target.value)} className="w-full h-9 bg-gray-900 text-white rounded-md outline-white px-4"/>
-            <button className="absolute inset-y-0 end-0 flex items-center pe-3 "><IoIosSend /> </button>
+            <button className="absolute inset-y-0 end-0 flex items-center px-3 text-xl "><IoIosSend /> </button>
             </div>
             </form>
         </div>

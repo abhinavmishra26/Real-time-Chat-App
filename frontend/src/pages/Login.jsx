@@ -51,7 +51,7 @@ export const Login=()=>{
     }
 
     return(
-        <div className=" w-screen h-screen  flex flex-col justify-center items-center overflow-y-hidden">
+        <div className=" w-screen h-screen  flex flex-col justify-center items-center ">
         <div className=" w-full max-w-sm p-6 rounded-md backdrop-blur-xl bg-opacity-30 bg-zinc-800">        <h1 className="text-center text-3xl  text-white font-semibold">Login <span className="text-blue-400">Chatters</span></h1>
         <form onSubmit={handleSubmit}>
            
