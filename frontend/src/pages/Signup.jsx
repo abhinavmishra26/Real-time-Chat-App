@@ -49,7 +49,7 @@ export const Signup=()=>{
 
             <div className="mt-4">
             <p className="text-gray-300 ">Already have an account ?  <Link to={"/login"}><span className="text-yellow-300 underline">Login</span></Link></p>
-            <input type="submit" value="Register" className=" mt-1 w-full rounded-md  bg-blue-700 h-7 text-white "/>
+            <input type="submit" value="Register" className=" mt-1 w-full rounded-md  bg-zinc-900 h-7 text-white "/>
             </div>
           
         </form>

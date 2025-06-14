@@ -63,7 +63,7 @@ export const Login=()=>{
             
             <div className="mt-10 ">
             <p className="text-gray-300 ">Don't have an account ?  <Link to={"/register"}><span className="text-yellow-300 underline">Register</span></Link></p>
-            <input type="submit" value="Login" className=" mt-1 w-full rounded-md  bg-blue-800 h-7 text-white "/>
+            <input type="submit" value="Login" className=" mt-1 w-full rounded-md  bg-zinc-900 h-7 text-white "/>
             </div>
           
         </form>

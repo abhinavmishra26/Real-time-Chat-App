@@ -55,7 +55,7 @@ const userLogin=async (req,res)=>{
  try{
   const {email,password}=req.body;
   let user=await userModel.findOne({email});
-  console.log(user,"user find");
+  
   if(user===null){
     return res.status(404).send({success:false,message:"Email Doesn't Exist ...Register Please"});
   }

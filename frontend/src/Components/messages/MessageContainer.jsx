@@ -8,12 +8,8 @@ import { useSocketContext } from "../../Context/SocketContext";
 
 export const MessageContainer=()=>{
     const {selectedConversation,setSelectedConversation}=useConversation();
-     
-
-
-    
     return(
-        <div className="w-[35%] backdrop-blur-xl h-[75%]  rounded-md max-lg:h-[70%] max-lg:w-[70%] border-white ">
+        <div className="w-full sm:w-[70%] lg:w-[35%] backdrop-blur-xl h-[75%] rounded-md border-white max-lg:h-[70%]">
        {!selectedConversation?(<NoChatSelected/>):(
         <>
         <header className="h-10 py-1 w-full font-bold bg-gray-400 rounded-tr-lg rounded-tl-lg">
