@@ -20,7 +20,7 @@ export const Sidebar = () => {
 
       {/* Sidebar Panel */}
       <div
-        className={` h-[66%] fixed lg:static  left-0 z-40  lg:h-[75%] w-[280px] lg:w-[320px] backdrop-blur-xl rounded-md 
+        className={` h-[66%] fixed lg:static  left-0 z-40  lg:h-[75%] w-[280px] lg:w-[320px] backdrop-blur-xl rounded-md  overflow-y-hidden
           transition-transform duration-300 ease-in-out
           ${isOpen ? "translate-x-0" : "-translate-x-full"} lg:translate-x-0`}
       >
